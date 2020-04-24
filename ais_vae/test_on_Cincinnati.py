@@ -1,6 +1,6 @@
 from ais_vae import *
 import matplotlib.pyplot as plt
-import scipy
+import scipy.io as scipy_io
 
 
 x = np.load( './x_fft.npy')
@@ -20,7 +20,7 @@ with tf.Session() as sess:
              'kde_data' : kde_data,
              'elbo_data' : elbo_data} 
 
-    scipy.io.savemat('./test_result.mat', data)
+    scipy_io.savemat('./test_result.mat', data)
 
 
 
