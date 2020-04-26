@@ -1,2 +1,2 @@
 # ais_vae
-Code of asi_vae and a demo using bearing degradation data of Cincinnati
+Code of ais_vae and a demo of bearing degradation prediction based on Cincinnati dataset
